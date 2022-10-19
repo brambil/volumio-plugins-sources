@@ -51,7 +51,7 @@ end
 begin
 prog = irexec
 button = poweroff
-config = /usr/sync && systemctl shutdown & 
+config = /usr/sync && systemctl poweroff & 
 delay = 2
 repeat = 3
 end
